@@ -9,10 +9,7 @@ const Button = ({title, onPress, style}) => {
   };
 
   return (
-    <Pressable
-      hitSlop={20}
-      onPress={handlePress}
-      style={[styles.container, style]}>
+    <Pressable hitSlop={20} onPress={onPress} style={[styles.container, style]}>
       <Text style={styles.title}>{title}</Text>
     </Pressable>
   );
