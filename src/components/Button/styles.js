@@ -10,8 +10,8 @@ export const styles = StyleSheet.create({
     marginRight: 20,
     paddingVertical: 20,
     paddingHorizontal: 8,
-    borderRadius: 8,
-    width: '100%',
+    borderRadius: 14,
+    width: '90%',
   },
   title: {
     color: colors.white,
