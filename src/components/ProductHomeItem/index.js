@@ -2,6 +2,7 @@ import React from "react";
 import { Pressable, Text, Image} from "react-native";
 import { styles } from "./styles";
 
+
 const ProductHomeItem = ({title, image, price, onPress}) => {
     return (
         <Pressable onPress={onPress} style={styles.container}>

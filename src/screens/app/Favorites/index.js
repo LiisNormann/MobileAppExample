@@ -8,8 +8,11 @@ import Header from "../../../components/Header";
 
 const Favorites = () => {
     const renderItem = ({item}) => {
+        const onProductPress = () => {
+            navigation.navigate('ProductDetails', {product: item})
+        }
         return (
-            <FavoriteItem
+            <FavoriteItem onPress={onProductPress}
             {...item}
             />)
     }
