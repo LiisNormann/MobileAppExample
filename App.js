@@ -14,6 +14,7 @@ import Home from './src/screens/app/Home';
 import Favorites from './src/screens/app/Favorites';
 import Profile from './src/screens/app/Profile';
 import { Image } from 'react-native';
+import ProductDetails from './src/screens/app/ProductDetails';
 
 
 // const WEB_CLIENT_ID = ''
@@ -81,6 +82,7 @@ const theme = {
           isSignedIn ? (
             <>
               <Stack.Screen name="Tabs" component={Tabs} options={{headerShown: false}}/>
+              <Stack.Screen name="ProductDetails" component={ProductDetails} options={{headerShown: false}}/>
             </>
           ) : (
             <>
