@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 8,
         borderRadius: 14,
         width: '90%',
-        flex: 1
+        //flex: 1
 
 
     },

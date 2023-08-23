@@ -8,8 +8,6 @@ import ImageCarusel from "../../../components/ImageCarusel";
 
 const ProductDetails = ({navigation, route}) => {
     
-    
-
     const {product} = route.params || {}
     const onBackPress = () => {
         navigation.goBack()
