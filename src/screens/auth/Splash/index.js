@@ -1,11 +1,12 @@
-import React from "react";
+import React, {useContext} from "react";
 import {Text, View, Image, Pressable} from "react-native";
-// import Pressable from "react-native/Libraries/Components/Pressable/Pressable";
+import { UserContext } from "../../../../App";
 import Button from "../../../components/Button";
 import {styles} from "./styles";
 
 const Splash = ({navigation}) => {
-    console.log('navigation => ', navigation)
+    const user = useContext(UserContext)
+    console.log('user => ', user)
 
     const onSignup = () => {
         navigation.navigate('Signup')
